@@ -120,6 +120,12 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\" />
+    <Folder Include="BlogApp\app\components\" />
+    <Folder Include="BlogApp\app\controllers\" />
+    <Folder Include="BlogApp\app\helpers\" />
+    <Folder Include="BlogApp\app\styles\" />
+    <Folder Include="BlogApp\app\templates\components\" />
+    <Folder Include="BlogApp\app\views\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -140,6 +146,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BlogApp\app\adapters\application.js" />
+    <Content Include="BlogApp\app\app.js" />
+    <Content Include="BlogApp\app\index.html" />
+    <Content Include="BlogApp\app\models\post.js" />
+    <Content Include="BlogApp\app\router.js" />
+    <Content Include="BlogApp\app\routes\index.js" />
+    <Content Include="BlogApp\app\routes\post.js" />
+    <Content Include="BlogApp\app\routes\posts\index.js" />
+    <Content Include="BlogApp\config\environment.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -147,6 +162,9 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="BlogApp\app\templates\application.hbs" />
+    <Content Include="BlogApp\app\templates\posts\index.hbs" />
+    <Content Include="BlogApp\app\templates\post.hbs" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

@@ -13,11 +13,13 @@ using MSDEVMTLEmberDemo.Models;
 
 namespace MSDEVMTLEmberDemo.Controllers
 {
+    [RoutePrefix("api")]
     public class PostsController : ApiController
     {
         private BlogContext db = new BlogContext();
 
         // GET: api/Posts
+        [Route("posts")]
         public PostsDTO GetPosts()
         {
             return new PostsDTO
@@ -27,6 +29,7 @@ namespace MSDEVMTLEmberDemo.Controllers
             };
         }
 
+        [Route("posts/{id}")]
         // GET: api/Posts/5
         [ResponseType(typeof(PostContainer))]
         public async Task<IHttpActionResult> GetPost(int id)

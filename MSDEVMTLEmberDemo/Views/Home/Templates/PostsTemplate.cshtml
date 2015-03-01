@@ -1,0 +1,11 @@
+<script type="text/x-handlebars" data-template-name="posts">
+    <h2>List of posts:</h2>
+    <ul>
+        {{#each post in controller}}
+        <li>{{#link-to 'post' post}}{{post.title}}{{/link-to}}</li>
+        {{/each}}
+    </ul>
+    
+    {{outlet}}
+
+</script>

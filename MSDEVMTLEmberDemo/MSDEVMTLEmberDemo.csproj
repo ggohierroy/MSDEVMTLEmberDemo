@@ -120,12 +120,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\" />
-    <Folder Include="BlogApp\app\components\" />
-    <Folder Include="BlogApp\app\controllers\" />
-    <Folder Include="BlogApp\app\helpers\" />
-    <Folder Include="BlogApp\app\styles\" />
-    <Folder Include="BlogApp\app\templates\components\" />
-    <Folder Include="BlogApp\app\views\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -146,31 +140,37 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BlogApp\app\adapters\application.js" />
-    <Content Include="BlogApp\app\app.js" />
-    <Content Include="BlogApp\app\index.html" />
-    <Content Include="BlogApp\app\models\post.js" />
-    <Content Include="BlogApp\app\router.js" />
-    <Content Include="BlogApp\app\routes\index.js" />
-    <Content Include="BlogApp\app\routes\post.js" />
-    <Content Include="BlogApp\app\routes\posts\index.js" />
-    <Content Include="BlogApp\config\environment.js" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="App_Readme\Handlebarsjs_README.md" />
+    <Content Include="App_Readme\Handlebarsjs_LICENSE" />
+    <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\Controllers\applicationController.js" />
+    <Content Include="Scripts\data.js" />
+    <Content Include="Scripts\ember-1.10.0.debug.js" />
+    <Content Include="Scripts\ember-1.10.0.min.js" />
+    <Content Include="Scripts\ember-1.10.0.prod.js" />
+    <Content Include="Scripts\ember-template-compiler.js" />
+    <Content Include="Scripts\handlebars.amd.js" />
+    <Content Include="Scripts\handlebars.amd.min.js" />
+    <Content Include="Scripts\handlebars.js" />
+    <Content Include="Scripts\handlebars.min.js" />
+    <Content Include="Scripts\handlebars.runtime.amd.js" />
+    <Content Include="Scripts\handlebars.runtime.amd.min.js" />
+    <Content Include="Scripts\handlebars.runtime.js" />
+    <Content Include="Scripts\handlebars.runtime.min.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\Models\post.js" />
+    <Content Include="Scripts\Routes\router.js" />
+    <Content Include="Scripts\Routes\applicationIndexRoute.js" />
+    <Content Include="Scripts\Routes\postRoute.js" />
+    <Content Include="Scripts\Routes\postsIndexRoute.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="BlogApp\app\templates\application.hbs" />
-    <Content Include="BlogApp\app\templates\posts\index.hbs" />
-    <Content Include="BlogApp\app\templates\post.hbs" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
+    <None Include="Views\Home\Templates\ApplicationTemplate.cshtml" />
+    <None Include="Views\Home\Templates\PostsTemplate.cshtml" />
+    <None Include="Views\Home\Templates\PostTemplate.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -185,7 +185,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Scripts\jquery-2.1.1.min.map" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
